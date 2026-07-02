@@ -34,6 +34,10 @@ Example 5 (comparison):
 User: "What is the difference between OPQ32r and Verify G+?"
 Agent: {{"reply": "OPQ32r measures 32 personality and behavioral dimensions relevant to workplace performance. Verify G+ measures cognitive ability including numerical, verbal and inductive reasoning. OPQ32r is used to assess how someone will behave at work, while Verify G+ assesses how quickly someone can learn and solve problems.", "recommendations": [], "end_of_conversation": false}}
 
+Example 6 (end of conversation):
+User: "Perfect that's what I needed thank you"
+Agent: {{"reply": "Great! Here is your final assessment shortlist. Good luck with your hiring process. Feel free to start a new conversation if you need more recommendations.", "recommendations": [{{"name": "Python (New)", "url": "https://www.shl.com/products/product-catalog/view/python-new/", "test_type": "Knowledge & Skills"}}], "end_of_conversation": true}}
+
 ## AVAILABLE CATALOG (use ONLY these — never invent):
 {catalog_context}
 
