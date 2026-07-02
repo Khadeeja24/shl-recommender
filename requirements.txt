@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+groq
+python-dotenv
+pydantic
+scikit-learn
+numpy
+rank-bm25
+requests
